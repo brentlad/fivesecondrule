@@ -1,0 +1,40 @@
+html,body
+{
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+
+}
+
+#screen
+{
+	position: absolute;
+	width: 100%;
+  	height: 100%;
+	z-index: 1;
+	min-width: 800px;
+	min-height:800px;
+
+}
+ 
+ul
+{
+	margin-top: 30px;
+	position: absolute;
+	z-index: 2;
+	min-width: 800px;
+	min-width: 800px;
+}
+li
+{
+	color: white;
+	display: inline;
+	padding-right: 100px;
+}
+
+::selection
+{
+	background-color: transparent;
+}
+
